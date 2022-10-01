@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e027fe7a0a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/nikhil.logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+             </nav>
+             <div class="header-text">
+                  <p>Frontend Developer</p>
+                  <h2>Hi, I'm <span>Nikhil</span><br><span>Kakkar</span> From<br>India</h2>  
+             </div>
+        </div>
+    </div>
+<!-- --------about--------------- -->
+    <div id="about">
+        <div class=" container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/_DSC00922.png ">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>  Having enjoyed the role as an Mechanical Engineer for the past two years,I am looking to expand my talents into new areas. 
+                         I focus on using my knowledge and experience to begin a career in Frontend Devlopment for a multinational company. In 
+                         addition to my degree in Machanical Engineering, I am a versatile Coder and code in Javascript, React JS, Python, HTML and CSS. 
+                         I am willing to relocate for the ideal job.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Awards')">Awards</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web development</span><br>Web App Development</li>
+                            <li><span>Mechanical designing</span><br>3D part Designing</li>
+                            <li><span>3D Design Analysis</span><br>3D Model Simulation And Analysis</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Designa a Portfolio</span><br>Frontend web-development project</li>
+                            <li><span>Design a Papershredder Machine</span><br>3D part Designing on Pro-e and Analysis on Ansys </li>
+                            <li><span>3D Designing of Scissor Jack</span><br>3D part Designing on Solidworks and Analysis on Ansys</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Bachelor Of Technology</span><br>Mechanical Engineer (HONOURS)</li>
+                            <li><span>Frontend web-development Course</span><br>Relevel(By Unacademy)</li>
+                            <li><span>Professional in Mechanical Designing</span><br>Autocad,Solidworks,Creo,Ansys,Gd&T</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Awards">
+                        <ul>
+                            <li><span>Selected in 40th Jawaharlal Nehru National<br>Science, Mathematics and Environment Exibition</span><br>Project name 'Air Purifying System'</li>
+                            <li><span>2015 District Level Science Quize Compitition</span><br>2nd Position</li>
+                            <li><span>NCC</span><br>A,B & C Certificate</li>
+                            <li><span>Work in a NCERT Documentary Movie</span><br>Inclusive Education Part-2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------------services------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web Designing with the help of HTML, CSS & Javascript</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-uikit"></i>
+                <h2>UI/UX Design</h2>
+                <p>Single Page web application Design With the help of Reactjs and React Native</p>
+                <a href="#">Learn more</a>
+            </div>
+           
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>APP Design</h2>
+                <p>Complete APP design with UI,UX and Design Thinking</p>
+                <a href="#">Learn more</a>
+            </div>
+           
+            <div>
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h2>Mechanical 3D Design & Simulation</h2>
+                <p>Autocad, ptc.Creo, Solidworks, ANSYS and Gd&T</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------portfolio-------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-titles">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Ticket Booking App</h3>
+                    <p>Stay entertained all the time! Book tickets for movies, concerts, live events, sports, activities, and much more .
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Enjoy listening to FREE Music and download latest MP3 songs online in HD quality.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-square-up-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- -------------------contact------------------- --> 
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> nikhilkakkar@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8949898225</p>
+                <div class="social-icons">
+                    <a href="www.linkedin.com/in/nikhil-kakkar-16713punj"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="Images/nikhil_resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nikhil. Made by <i class="fa-solid fa-heart"></i> Nikhil Kakkar </p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    
+    function openmenu(){
+       sidemenu.style.right = "0";
+    }
+    function closemenu(){
+       sidemenu.style.right = "-120px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby7s99iLqGGEHdO02CQ1XCvkSptaOc5-jxcdhIOCYzcUMotdPHOhtckyxmva9a6FY8Y4A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>  
